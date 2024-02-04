@@ -20,6 +20,10 @@ class MainActivity : AppCompatActivity() {
 //        list.add(OutData(R.drawable.image_rhn1657688407,"Anh 7", "Dia diem thu bay"))
 //        list.add(OutData(R.drawable.image_cgh1624954649,"Anh 8", "Dia diem thu tam"))
 //        list.add(OutData(R.drawable.image_upf1657688406,"Anh 9", "Dia diem thu chin"))
+        list.add(OutData(R.drawable.image_rhn1657688407,"Anh 6", "Dia diem thu sau"))
+        list.add(OutData(R.drawable.image_rhn1657688407,"Anh 7", "Dia diem thu bay"))
+        list.add(OutData(R.drawable.image_cgh1624954649,"Anh 8", "Dia diem thu tam"))
+        list.add(OutData(R.drawable.image_upf1657688406,"Anh 9", "Dia diem thu chin"))
 
         customAdapter = CustomAdapter(this, list)
 
